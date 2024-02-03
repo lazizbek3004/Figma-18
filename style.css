@@ -1,0 +1,1579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(98, 244, 244, 0.30);
+}
+.wrapper{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    height: 73px;
+    padding: 19px 97px 0px 26px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+}
+.icon{
+    display: none;
+}
+.logo{
+    display: flex;
+    gap: 14px;
+}
+.logo h1{
+    color: #00ACAC;
+font-family: Prompt;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.logo h1 span{
+    color: #000;
+font-family: Prompt;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hard{
+    width: 41px;
+    height: 41px;
+    border-radius: 41px;
+    background-color: #00ACAC;
+    align-items: end;
+    padding-top: 6px;
+    padding-left: 14px;
+    position: relative;
+}
+.rectangle{
+    position: absolute;
+    top: 3px;
+    left: 5px;
+}
+.home{
+    display: flex;
+    align-items: end;
+    margin-bottom: 14px;
+}
+.home ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: end;
+}
+.home ul li a{
+    text-decoration: none;
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+transition: all 0.2s ease;
+}
+.home ul li a:hover{
+    color: #004F4F;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #004F4F;
+border-radius: 20px;
+color: white;
+padding: 5px;
+}
+.blue{
+    width: 100%;
+    display: flex;
+    gap: 101px;
+    width: 1440px;
+    height: 457px;
+    flex-shrink: 0;
+    background: #00ACAC;
+}
+.phones{
+    display: flex;
+    padding-top: 182px;
+    position: relative;
+}
+.phones img{
+    height: 431px;
+}
+.for-phone{
+    position: absolute;
+    top: 146px;
+    left: 175px;
+}
+.for-phone img{
+    width: 231px;
+    height: 460px;
+}
+.why{
+    width: 660px;
+    display: flex;
+    align-items: end;
+}
+.why h1{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 54.673px;
+font-style: normal;
+font-weight: 400;
+line-height: 136.188%; /* 74.458px */
+}
+.section-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    padding: 0px 51px 53px 637px;
+    background-color: #fff;
+}
+.med{
+    text-align: center;
+
+}
+.med h1{
+    color: #00ACAC;
+font-family: Prompt;
+font-size: 67.065px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.med h1 span{
+    color: #000;
+font-family: Prompt;
+font-size: 67.065px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.apps{
+    display: flex;
+    justify-content: space-between;
+}
+.section-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 112px 69px 93px 62px;
+}
+.section-2 p{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 136.188%; /* 38.133px */
+}
+.section-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    padding-top: 83px;
+    background-color: #fff;
+}
+.section-3 h1{
+    text-align: center;
+    color: #1E4545;
+font-family: Roboto;
+font-size: 56.258px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.iphone{
+    width: 1005;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.picture{
+    position: absolute;
+    top:   181px;
+    left: 568px;
+}
+.first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 806px;
+    margin-bottom: 25px;
+    
+}
+.first h3{
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.first p{
+    width: 329px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.first-r{
+    position: absolute;
+    top: 77px;
+    left: 760px;
+}
+.second{
+    width: 100%;
+    display: flex;
+    gap: 578px;
+    padding-left: 204px;
+    margin-bottom: 85px;
+}
+.you{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.you h3{
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.you p{
+    width: 284px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.audio{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.audio h3{
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.audio p{
+    width: 207px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.second-r{
+    position: absolute;
+    top: 167px;
+    left: 488px;
+}
+.second-r1{
+    position: absolute;
+    top: 170px;
+    left: 857px;
+}
+.third{
+    width: 100%;
+    display: flex;
+    gap: 578px;
+    padding-left: 266px;
+    margin-bottom: 53px;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 67px;
+}
+.add h3{
+    color: #0C1320;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.add p{
+    width: 214px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.profile h3{
+    color: #0C1320;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.profile p{
+    width: 186px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.third-r{
+    position: absolute;
+    top: 430px;
+    left: 448px;
+}
+.third-r1{
+    position: absolute;
+    top: 306px;
+    left: 870px;
+}
+.fourth{
+    display: flex;
+    gap: 512px;
+    padding-left: 347px;
+    margin-bottom: 55px;
+}
+.calendar{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.nothing{
+    padding-top: 80px;
+}
+.calendar h3{
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.calendar p{
+    width: 119px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nothing p{
+    width: 314px;
+    color: #0C1320;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.fourth-r{
+    position: absolute;
+    top: 664px;
+    left: 459px;
+}
+.fourth-r1{
+    position: absolute;
+    top: 710px;
+    left: 861px;
+}
+.fifth{
+    width: 100%;
+    display: flex;
+    gap: 435px;
+    padding-left: 282px;
+}
+.guide{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 12px;
+}
+.guide h3{
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.guide p{
+    width: 211px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.medi{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.medi h3{
+    color: #0C1320;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.medi p{
+    width: 279px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.fifth-r{
+    position: absolute;
+    top: 821px;
+    left: 479px;
+}
+.fifth-r1{
+    position: absolute;
+    top: 837px;
+    left: 762px;
+}
+.section-4{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 195px;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+}
+.section-4 h1{
+    text-align: center;
+    color: #1E4545;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    justify-content: center;
+    margin-left: 211px;
+}
+.forms{
+    display: flex;
+    gap: 60px;
+    justify-content: left;
+}
+.forms form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.forms form label{
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.forms form input{
+    width: 478px;
+height: 70px;
+flex-shrink: 0;
+background: rgba(98, 244, 244, 0.20);
+border: none;
+}
+.reason{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.reason label{
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.reason input{
+    width: 1016px;
+height: 70px;
+flex-shrink: 0;
+background: rgba(98, 244, 244, 0.20);
+border: none;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.message label{
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 16px;
+}
+.message input{
+    width: 1016px;
+height: 334px;
+flex-shrink: 0;
+background: rgba(98, 244, 244, 0.20);
+border: none;
+margin-bottom: 30px;
+}
+.by {
+    color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 28px;
+}
+.by span{
+    color: #00ACAC;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.agree{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 45px;
+}
+.agree input{
+    width: 36px;
+height: 36px;
+flex-shrink: 0;
+border: 1px solid #000;
+background: #FFF;
+}
+.agree label{
+    color: #8E0909;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.message button{
+    width: 173px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 9px;
+background: #00ACAC;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+margin-bottom: 56px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+    padding: 43px 0px;
+    background: #000;
+}
+.media{
+    display: flex;
+    gap: 74px;
+    padding-left: 41px;
+}
+.media p{
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.media ul {
+    list-style: none;
+    display: flex;
+    gap: 38px;
+}
+.media ul li a{
+    text-decoration: none;
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ikki{
+    padding-left: 640px;
+    display: flex;
+    gap: 90px;
+}
+.ohiri{
+    width: 100%;
+    height: 59px;
+    padding-top: 9px;
+    padding-left: 23px;
+    display: flex;
+    gap: 44px;
+    background-color: #fff;
+}
+.insta{
+    width: 26px;
+    height: 26px;
+    background-image: url(images/Vector\ \(2\).svg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.insta img{
+    width: 11px;
+    height: 11px;
+}
+
+@media screen and (max-width:835px){
+    .wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 45px;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        height: 58px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding-right: 56px;
+        border-radius: 45px 45px 0px 0px;
+    }
+    .logo{
+        display: flex;
+        gap: 9px;
+    }
+    .hard{
+        width: 24px;
+        height: 24px;
+    }
+    .hard img{
+        width: 14px;
+        height: 14px;
+        margin-left: -3px;
+    }
+    .logo h1{
+        font-size: 20.854px;
+    }
+    .logo h1 span{
+        font-size: 20.854px;
+    }
+    .home ul li a {
+        font-size: 13.903px;
+    }
+    .home ul{
+        display: flex;
+        gap: 13px;
+        margin-bottom: 0px;
+    }
+    .home{
+        margin-bottom: 8px;
+    }
+    .blue{
+        width: 100%;
+        height: 264px;
+        display: flex;
+        gap: 0px;
+
+    }
+    .phones{
+        display: flex;
+        gap: 0.78px;
+    }
+    .phones img{
+        height: 250px;
+    }
+    .for-phone img{
+        width: 134px;
+        height: 290px;
+    }
+    .for-phone{
+        position: absolute;
+        top: 154px;
+        left: 103px;
+    }
+    .why{
+        padding: 0px 70px;
+    }
+    .why h1{
+        font-size: 31.671px;
+    }
+    .section-1{
+        width: 100%;
+        height: 189px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2px 29px 30px 369px;
+        align-items: center;  
+        gap: 0px;
+    }
+    .med h1{
+        font-size: 38.849px;
+    }
+    .med h1 span{
+        font-size: 38.849px;
+    }
+    .apps{
+        display: flex;
+        gap: 52px;
+    }
+    .apps img{
+        width: 200px;
+        height: 45px;
+    }
+    .section-2{
+        width: 100%;
+        height: 253px;
+        padding: 64px 39px 54px 35px;
+    }
+    .section-2 p{
+        width: 100%;
+        font-size: 16.22px;
+    }
+    .section-3{
+        width: 100%;
+        padding-top: 47px;
+        display: flex;
+        flex-direction: column;
+        gap: 47px;
+    }
+    .section-3 h1{
+        font-size: 32.589px;
+    }
+    .iphone{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .first{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 466px;
+    }
+    .first h3{
+        font-size: 13.903px;
+    }
+    .first p{
+        width: 191px;
+        font-size: 10.427px;
+    }
+    .second{
+        width: 100%;
+        gap: 334px;
+        padding-left: 118px;
+        margin-bottom: 49px;
+    }
+    .you h3{
+        font-size: 13.903px;
+    }
+    .you p{
+        width: 164px;
+        font-size: 10.427px;
+    }
+    .audio{
+        padding-top: 29px;
+    }
+    .audio h3{
+        font-size: 13.903px;
+    }
+    .audio p{
+        width: 120px;
+        font-size: 10.427px;
+    }
+    .picture{
+        position: absolute;
+        top: 105px;
+        left: 329px;
+    }
+    .picture img{
+        width: 176px;
+        height: 380px;
+    }
+    .first-r img{
+        width: 48px;
+        height: 68px;
+    }
+    .first-r{
+        position: absolute;
+        top: 44px;
+        left: 415px;
+    }
+    .second-r img{
+        width: 42px;
+
+    }
+    .second-r{
+        position: absolute;
+        top: 96px;
+        left: 282px;
+    }
+    .second-r1 img{
+        width: 110px;
+    }
+    .second-r1{
+        position: absolute;
+        top: 120px;
+        left: 496px;
+    }
+    .third{
+        width: 100%;
+        display: flex;
+        gap: 334px;
+        padding-left: 154px;
+        margin-bottom: 30px;
+    }
+    .add{
+        padding-top: 39px;
+    }
+    .add h3{
+        font-size: 13.903px;
+    }
+    .add p{
+        width: 124px;
+        font-size: 10.427px;
+    }
+    .profile h3{
+        font-size: 13.908px;
+    }
+    .profile p{
+        width: 107px;
+        font-size: 10.427px;
+    }
+    .third-r img{
+        width: 80px;
+    }
+    .third-r{
+        position: absolute;
+        top: 244px;
+        left: 259px;
+    }
+    .third-r1 img{
+        width: 100px;
+    }
+    .third-r1{
+        position: absolute;
+        top: 190px;
+        left: 500px;
+    }
+    .fourth{
+        width: 100%;
+        gap: 309px;
+        padding-left: 201px;
+        margin-bottom:  31px;
+    }
+    .calendar{
+        gap: 3px;
+    }
+    .calendar h3{
+        font-size: 13.908px;
+    }
+    .calendar p{
+        width: 68px;
+        font-size: 10.427px;
+    }
+    .nothing{
+        padding-top: 30px;
+    }
+    .nothing p{
+        width: 181px;
+        font-size: 13.903px;
+    }
+    .fifth{
+        width: 100%;
+        gap: 252px;
+        padding-left: 163px;
+    }
+    .guide{
+    gap: 3px;
+    padding-top: 7px;
+    }
+    .guide h3{
+    font-size: 13.903px;
+    }
+    .guide p{
+        width: 122px;
+        font-size: 10.427px;
+    }
+    .medi{
+        gap: 3px;
+    }
+    .medi h3{
+        font-size: 13.903px;
+    }
+    .medi p{
+        width: 162px;
+        font-size: 10.427px;
+    }
+    .fourth-r img{
+        width: 80px;
+    }
+    .fourth-r{
+        position: absolute;
+        top: 374px;
+        left: 260px;
+    }
+    .fourth-r1 img{
+        width: 60px;
+    }
+    .fourth-r1{
+        position: absolute;
+        top: 410px;
+        left: 498px;
+    }
+    .fifth-r img{
+        width: 90px;
+    }
+    .fifth-r{
+        position: absolute;
+        top: 470px;
+        left: 287px;
+    }
+    .fifth-r1 img{
+        width: 90px;
+    }
+    .fifth-r1{
+        position: absolute;
+        top: 470px;
+        left: 431px;
+    }
+    .section-4{
+        width: 100%;
+        padding-top: 112px;
+    }
+    .section-4 h1{
+        font-size: 27.805px;
+    }
+    .inputs{
+        margin-left: 122px;
+        gap: 26px;
+    }
+    .forms{
+        width: 100%;
+        gap: 34px;
+    }
+    .forms form{
+        gap: 9px;
+    }
+    .forms form label{
+        font-size: 13.903px;
+    }
+    .forms form input{
+        width: 276.892px;
+        height: 40.549px;
+        flex-shrink: 0;
+    }
+    .reason{
+        width: 100%;
+        gap: 9px;
+    }
+    .reason label{
+        font-size: 13.903px;
+    }
+    .reason input{
+        width: 588.541px;
+        height: 40.549px;
+        flex-shrink: 0;
+    }
+    .message{
+        width: 100%;
+    }
+    .message label{
+        font-size: 13.908px;
+        margin-bottom: 9px;
+    }
+    .message input{
+        width: 588.541px;
+        height: 193.477px;
+        flex-shrink: 0;
+        margin-bottom: 17px;
+    }
+    .by{
+        font-size: 13.903px;
+        margin-bottom: 16px;
+    }
+    .by span{
+        font-size: 13.903px;
+    }
+    .agree{
+        width: 100%;
+        margin-bottom: 26px;
+        gap: 8px;
+    }
+    .agree input{
+        width: 20.854px;
+        height: 20.854px;
+        flex-shrink: 0;
+    }
+    .message button{
+        width: 100.214px;
+        height: 24.329px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 13.903px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 32px;
+    }
+    footer{
+        width: 100%;
+        height: 161px;
+        padding: 23px 0px;
+        gap: 48px;
+    }
+    .media p{
+        font-size: 13.903px;
+    }
+    .media ul li a{
+        font-size: 13.903px;
+    }
+    .ikki{
+        width: 100%;
+        padding-left: 300px;
+    }
+    .ikki img{
+        width: 200px;
+        height: 45px;
+    }
+    .ikki img:nth-child(2){
+        width: 183px;
+    }
+    .ohiri{
+        width: 100%;
+        height: 48px;
+    }
+    .ohiri img{
+        width: 20px;
+        height: 20px;
+    }
+    .insta{
+        width: 15px;
+        height: 15px;
+        border: 1.5px solid black;
+        border-radius: 4px;
+        margin-top: 3px;
+    }
+    .insta img{
+        width: 6px;
+        height: 6px;
+    }
+    }
+
+@media screen and (max-width:415px){
+    .wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    header{
+        width: 100;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 18px;
+    }
+    .home{
+        display: none;
+    }
+    .icon{
+        display: flex;
+    }
+    .logo{
+        align-items: center;
+    }
+    .blue{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .phones{
+        padding-top: 84px;
+        justify-content: center;
+
+    }
+    .for-phone{
+      position: absolute;
+      top: 48px;
+      left: 148px;
+    }
+    .why{
+        width: 100%;
+        padding: 0px 72px;
+        text-align: center;
+        justify-content: center;
+    }
+    .why h1{
+        width: 206px;
+        font-size: 23px;
+    }
+    .section-1{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 44px;
+        padding: 4px 0px 54px 0px;
+    }
+    .med{
+        width: 100%;
+        text-align: center;
+    }
+    .apps{
+        gap: 2px;
+    }
+    .apps img:nth-child(1){
+        width: 139px;
+        height: 31px;
+    }
+    .apps img:nth-child(2){
+        width: 128px;
+        height: 33px;
+    }
+    .section-2{
+        width: 100%;
+        height: 387px;
+        padding: 41px 40px 20px 55px;
+    }
+    .section-2 p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .section-3{
+        width: 100%;
+        padding-top: 24px;
+        gap: 24px;
+    }
+    .section-3 h1{
+        font-size: 25px;
+    }
+    .iphone{
+        width: 100%;
+    }
+    .iphone h3{
+        font-size: 8.913px;
+    }
+    .iphone p{
+        font-size: 7px;
+    }
+    .first{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding-left: 228px;
+        margin-bottom: 5px;
+    }
+    .first p{
+        width: 122px;
+    }
+    .second{
+        width: 100%;
+        display: flex;
+        gap: 204px;
+        padding-left: 15px;
+        margin-bottom: 12px;
+    }
+    .you {
+        gap: 3px;
+    }
+    .you p{
+        width: 105px;
+    }
+    .audio{
+        padding-top: 18px;
+        gap: 3px;
+
+    }
+    .audio p{
+        width: 76px;
+    }
+    .third{
+        width: 100%;
+        gap: 214px;
+        padding-left: 28px;
+        margin-bottom: 10px;
+    }
+    .add{
+        padding-top: 24px;
+        gap: 2px;
+    }
+    .add p{
+        width: 79px;
+    }
+    .picture img{
+        width: 112px;
+        height: 244px;
+    }
+    .picture{
+        position: absolute;
+        top: 67px;
+        left: 140px;
+    }
+    .profile{
+        gap: 2px;
+    }
+    .profile p{
+        width: 69px;
+    }
+    .fourth{
+        width: 100%;
+        gap: 190px;
+        padding-left: 58px;
+        margin-bottom: 21px;
+    }
+    .calendar{
+        gap: 2px;
+    }
+    .calendar p{
+        width: 44px;
+    }
+    .nothing{
+        padding-top: 28px;
+    }
+    .nothing p{
+        font-size: 8.913px;
+        width: 125px;
+    }
+    .fifth{
+        width: 100%;
+        padding-left: 34px;
+        gap: 161.5px;
+    }
+    .guide{
+        padding-top: 5px;
+        gap: 2px;
+    }
+    .guide p{
+        width: 81px;
+    }
+    .medi{
+        gap: 2px;
+    }
+    .medi p{
+        width: 80px;
+    }
+    .first-r img{
+        width: 30px;
+        height: 50px;
+    }
+    .first-r{
+        position: absolute;
+        top: 28px;
+        left: 196px;
+    }
+    .second-r{
+        position: absolute;
+        top: 71px;
+        left: 108px;
+    }
+    .second-r img{
+        width: 36px;
+    }
+    .second-r1{
+        position: absolute;
+        top: 71px;
+        left: 247px;
+    }
+    .second-r1 img{
+        width: 70px;
+    }
+    .third-r{
+        position: absolute;
+        top: 150px;
+        left: 95px;
+    }
+    .third-r img{
+        width: 50px;
+    }
+    .third-r1{
+        position: absolute;
+        top: 110px;
+        left: 252px;
+    }
+    .third-r1 img{
+        width: 60px;
+    }
+    .fourth-r{
+        position:absolute;
+        top: 236px;
+        left: 95px;
+    }
+    .fourth-r img{
+        width: 50px;
+    }
+    .fourth-r1{
+        position: absolute;
+        top: 250px;
+        left: 243px;
+    }
+    .fourth-r1 img{
+        width: 40px;
+    }
+    .fifth-r{
+        position: absolute;
+        top: 304px;
+        left: 117px;
+    }
+    .fifth-r img{
+        width: 58px;
+    }
+    .fifth-r1{
+        position: absolute;
+        top: 305px;
+        left: 212px;
+    }
+    .fifth-r1 img{
+        width: 60px;
+    }
+    .section-4{
+        width: 100%;
+        padding-top: 100px;
+        gap: 31px;
+    }
+        .section-4 h1{
+        font-size: 25px;
+    }
+    .inputs{
+        width: 100%;
+        margin-left: 20px;
+        gap: 21px;
+    }
+    .forms{
+        gap: 19px;
+    }
+    .forms form{
+        gap: 7px;
+    }
+    .forms form label{
+        font-size: 11.429px;
+    }
+    .forms form input{
+        width: 174px;
+        height: 34px;
+        flex-shrink: 0;
+    }
+    .reason{
+        gap: 7px;
+    }
+    .reason label{
+        font-size: 11.429px;
+    }
+    .reason input{
+        width: 375px;
+        height: 33px;
+        flex-shrink: 0;
+    }
+    .message{
+        width: 100%;
+    }
+    .message label{
+        font-size: 11.429px;
+        margin-bottom: 7px;
+    }
+    .message input{
+        width: 375px;
+        height: 224px;
+        flex-shrink: 0;
+    }
+    .by{
+        font-size: 11.429px;
+        margin-bottom: 13px;
+    }
+    .by span{
+        font-size: 11.429px;
+    }
+    .agree{
+        gap: 6px;
+        margin-bottom: 21px;
+    }
+    .agree input{
+        width: 17.143px;
+        height: 17.143px;
+        flex-shrink: 0;
+    }
+    .agree label{
+        font-size: 11.429px;
+    }
+    .message button{
+        width: 82.381px;
+        height: 20px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 11.429px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 51px;
+    }
+    footer{
+        width: 100%;
+        height: 162px;
+        gap: 30px;
+    }
+    .media{
+        padding-left: 13.5px;
+        gap: 24px;
+        align-items: center;
+    }
+    .media p{
+        font-size: 7.914px;
+        padding-top: 4px;
+    }
+    .media ul {
+        display: flex;
+        gap: 12.5px;
+        align-items: center;
+    }
+    .media ul li a{
+        font-size: 7.914px;
+    }
+    .ikki{
+        padding-left: 266px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .ikki img:nth-child(1){
+        width: 103px;
+        height: 25px;
+    }
+    .ikki img:nth-child(2){
+        width: 98px;
+        height: 27px;
+    }
+    .ohiri{
+        height: 45px;
+        gap: 24px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
